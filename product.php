@@ -147,8 +147,8 @@ require_once('database/dbhelper.php');
                                                 <span>4.6</span>
                                             </div>
                                             <div class="time">
-                                                <img src="images/icon/icon-clock.svg" alt="">
-                                                <span>15 comment</span>
+                                            s   <img src="images/icon/icon-comment.svg" alt="">
+                                            <span>15 comment</span>
                                             </div>
                                         </div>
                                     </a>

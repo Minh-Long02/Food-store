@@ -27,7 +27,7 @@
                     <p>Codedoan Coffee hoạt động từ 7h đến 22h hằng ngày, tuỳ theo khu vực của bạn và thời gian mở cửa cụ thể.</p>
                 </div>
                 <div class="row">
-                    <img src="images/bg/anhnen.jpg">
+                    <img src="images/bg/view1.jpg">
                 </div>
                 <div class="row">
                     <h3>Tôi có thể thanh toán bằng tiền mặt không?</h3>

@@ -335,7 +335,7 @@ section.main section.recently .product-recently .row .col .price span {
   font-size: 20px;
   font-weight: 600;
   color: rgba(207, 16, 16, 0.815);
-  font-family: "Bebas Neue", cursive;
+  /* font-family: "Bebas Neue", cursive; */
 }
 section.main section.recently .product-recently .row .col .dish span {
   padding: 10px 0;
@@ -429,7 +429,7 @@ section.main section.restaurants .product-restaurants .row .col .price span {
   font-size: 20px;
   font-weight: 600;
   color: rgba(207, 16, 16, 0.815);
-  font-family: "Bebas Neue", cursive;
+  /* font-family: "Bebas Neue", cursive; */
 }
 
 section.main section.restaurants .product-restaurants .row .col .more {

@@ -21,7 +21,7 @@ require_once('database/dbhelper.php');
         <header>
             <div class="container">
                 <section class="logo">
-                    <a href="index.php"><img src="images/product-recently/Logo1.jpg"></a>
+                    <a href="index.php"><img src="images/product-recently/logocafe.jpg"></a>
                 </section>
                 <nav>
                     <ul>
