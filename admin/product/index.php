@@ -96,6 +96,13 @@ require_once('../database/dbhelper.php');
                     <td>            
                     <button class="btn btn-danger" onclick="deleteProduct(' . $item['id'] . ')">Xoá</button>
                     </td>
+
+                    <td style="white-space: nowrap;">            
+                        <a href="update.php">
+                        <button class="btn btn-primary">Chỉnh sửa</button>
+                        </a>
+                    </td>
+
                 </tr>';
                         }
                     } catch (Exception $e) {
