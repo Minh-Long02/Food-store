@@ -78,30 +78,31 @@ if (isset($_GET['id'])) {
                     </section>
                 </div>
                 <aside>
-                    <h1>Gợi ý cho bạn</h1>
-                    <div class="row">
-                        <?php
-                        $sql = 'select * from product limit 5';
-                        $productList = executeResult($sql);
-                        $index = 1;
-                        foreach ($productList as $item) {
-                            echo '
-                                    <div class="col">
-                                    <a href="details.php?id=' . $item['id'] . '">
-                                        <img src="admin/product/'.$item['thumbnail'] . '" alt="">
-                                        <div class="about">
-                                            <div class="title">
-                                                <p>' . $item['title'] . '</p>
-                                                <span>Giá: ' . number_format($product['price'], 0, ',', '.') . ' VNĐ' . '</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                ';
-                        }
-                        ?>
+    <h1>Gợi ý cho bạn</h1>
+    <div class="row">
+    <?php
+    $sql = 'SELECT * FROM product ORDER BY RAND() LIMIT 5'; // Sử dụng ORDER BY RAND() để chọn ngẫu nhiên
+    $productList = executeResult($sql);
+    $index = 1;
+    foreach ($productList as $item) {
+        echo '
+            <div class="col">
+                <a href="details.php?id=' . $item['id'] . '">
+                    <img src="admin/product/'.$item['thumbnail'] . '" alt="">
+                    <div class="about">
+                        <div class="title">
+                            <p>' . $item['title'] . '</p>
+                            <span>Giá: ' . number_format($item['price'], 0, ',', '.') . ' VNĐ' . '</span>
+                        </div>
                     </div>
-                </aside>
+                </a>
+            </div>
+        ';
+    }
+    ?>
+    </div>
+</aside>
+
             </section>
             <section class="restaurants">
                 <div class="title">

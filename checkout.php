@@ -20,6 +20,18 @@ if (count($idList) > 0) {
 } else {
     $cartList = [];
 }
+// Kiểm tra khi form được submit
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Kiểm tra số điện thoại
+    $phone_number = $_POST['phone_number'];
+    if (!preg_match('/^[0-9]{10}$/', $phone_number)) {
+        // Nếu số điện thoại không hợp lệ, hiển thị thông báo lỗi
+        echo '<script>alert("Số điện thoại không hợp lệ. Vui lòng nhập lại số điện thoại gồm 10 chữ số.");</script>';
+    } else {
+        // Nếu số điện thoại hợp lệ, tiếp tục xử lý form
+        // Thêm mã xử lý tiếp theo ở đây...
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -78,7 +90,7 @@ if (count($idList) > 0) {
                                 <h4 style="padding: 2rem 0; border-bottom:1px solid black;">Nhập thông tin mua hàng </h4>
                                 <div class="form-group">
                                     <label for="usr">Họ và tên:</label>
-                                    <input required="true" type="text" class="form-control" id="usr" name="fullname">
+                                    <input required="true" type="text" class="form-control" id="user" name="fullname">
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Email:</label>
