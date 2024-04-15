@@ -43,10 +43,10 @@ require_once('../database/dbhelper.php');
             </a>
             <table class="table table-bordered table-hover">
                 <thead>
-                    <tr style="font-weight: 500;">
+                    <tr style="font-weight: 500;white-space: nowrap;">
                         <td width="70px">STT</td>
-                        <td>Thumbnail</td>
-                        <td>Tên Sản Phẩm</td>
+                        <td>Hình ảnh</td>
+                        <td>Tên sản phẩm</td>
                         <td>Giá</td>
                         <td>Số lượng</td>
                         <td>Nội dung</td>

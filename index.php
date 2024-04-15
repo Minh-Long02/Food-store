@@ -25,12 +25,13 @@ require_once('database/dbhelper.php');
                                         <a href="thucdon.php?id_category=' . $item['id'] . '">
                                             <p>' . $item['name'] . '</p>
                                             <div class="bg"></div>
-                                            <img src="images/bg/gantoi.jpeg" alt="">
+                                            <img src="images/bg/image1.jpg" alt="">
                                         </a>
                                     </div>
                                     ';
                     }
                     ?>
+                    
                 </div>
             </section>
         </div>

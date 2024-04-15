@@ -168,7 +168,7 @@ if (isset($_GET['id'])) {
     <div class="container">
         <div class="panel panel-primary">
             <div class="panel-heading">
-                <h2 class="text-center">Thêm/Sửa Sản Phẩm</h2>
+                <h2 class="text-center">Thêm Sản Phẩm</h2>
             </div>
             <div class="panel-body">
                 <form method="POST" enctype="multipart/form-data">
@@ -204,7 +204,7 @@ if (isset($_GET['id'])) {
                     </div>
                     <div class="form-group">
                         <!-- <label for="exampleFormControlFile1">Thumbnail:<label> -->
-                        <label for="name">Thumbnail:</label>
+                        <label for="name">Chọn ảnh:</label>
                         <input type="file" class="form-control-file" id="exampleFormControlFile1" id="thumbnail" name="thumbnail">
                         <img src="<?= $thumbnail ?>" style="max-width: 200px" id="img_thumbnail">
                     </div>

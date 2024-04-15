@@ -42,7 +42,7 @@ require_once('database/dbhelper.php');
                                 <li><a href="thucdon.php?page=caphe">Cà phê</a></li> -->
                             </ul>
                         </li>
-                        <li><a href="about.php">Về chúng tôi</a></li>
+                        <!-- <li><a href="about.php">Về chúng tôi</a></li> -->
                         <li><a href="sendMail.php">Liên hệ</a></li>
                     </ul>
                 </nav>

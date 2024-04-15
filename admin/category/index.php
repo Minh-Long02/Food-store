@@ -61,7 +61,7 @@ require_once('../database/dbhelper.php');
                     <td>' . $item['name'] . '</td>
                     <td>
                         <a href="add.php?id=' . $item['id'] . '">
-                            <button class=" btn btn-warning">Sửa</button> 
+                            <button class="btn btn-primary">Sửa</button> 
                         </a> 
                     </td>
                     <td>            

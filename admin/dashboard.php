@@ -43,7 +43,7 @@
                 <form action="" method="POST">
                     <table class="table table-bordered table-hover">
                         <thead>
-                            <tr style="font-weight: 500;text-align: center;">
+                            <tr style="font-weight: 500;text-align: center;white-space: nowrap;">
                                 <td width="50px">STT</td>
                                 <td width="200px">Tên User</td>
                                 <td>Tên Sản Phẩm/<br>Số lượng</td>
