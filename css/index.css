@@ -175,6 +175,9 @@ header section.logo a img {
 }
 #wrapper header .container section.menu-right .login:hover .logout{
   display: block;
+  white-space: nowrap;
+  padding: 10px 0;
+  padding-right: 45px;
 }
 #wrapper header .container section.menu-right .login .logout{
   display: none;

@@ -16,12 +16,12 @@
     <div class="link">
       <div class="col">
         <a href="">Về chúng tôi</a>
-        <a href="">Xem facebook</a>
-        <a href="https://www.facebook.com/profile.php?id=100010528535170">Blogs</a>
+        <a href="https://www.facebook.com/longpon.2511/">Xem facebook</a>
+        <a href="">Blogs</a>
       </div>
       <div class="col">
-        <a href="">Cách tạo website</a>
-        <a href="">Trở thành gánh nặng đáy xã hội</a>
+        <a href="">Cách tạo món ăn ngon</a>
+        <a href="">Hướng dẫn pha nước uống</a>
       </div>
       <div class="col">
         <a href="">Trung tâm hỗ trợ</a>
@@ -32,13 +32,6 @@
         <a href=""><i class="fab fa-instagram-square"></i></a>
         <a href=""><i class="fab fa-twitter-square"></i></a>
       </div>
-    </div>
-    <div class="bottom">
-    
-      <!-- <a href=""><img src="images/icon/logo-playstore.svg" alt=""></a>
-      <a href=""><img src="images/icon/logo-appstore.svg" alt=""></a> -->
-      
-
     </div>
   </div>
 </footer>
