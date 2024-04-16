@@ -1,8 +1,8 @@
 <footer>
   <div class="container">
     <div class="logo">
-      <a href=""><img src="images/product-recently/logocafe-black.png" width="100px" height="80px" ></a>
-      <div class="time" style="padding-left:50%;">
+      <a href=""><img src="images/product-recently/logo.jpeg" width="100px" height="80px" ></a>
+      <!-- <div class="time" style="padding-left:50%;">
         <a href="https://time.is/Vietnam" id="time_is_link" rel="nofollow"></a>
         <span id="Vietnam_z418" style="font-size:40px"></span>
         <script src="//widget.time.is/t.js"></script>
@@ -11,7 +11,7 @@
             Vietnam_z418: {}
           });
         </script>
-      </div>
+      </div> -->
     </div>
     <div class="link">
       <div class="col">
@@ -37,7 +37,7 @@
 </footer>
 <style>
   footer {
-    background-color: black;
+    background-color: #a3a36a;
     width: 100%;
     margin: 0px auto;
     margin-top: 1rem;

@@ -3,17 +3,6 @@
 use function PHPSTORM_META\type;
 
 require_once('database/dbhelper.php');
-//     $sql = 'select * from orders where';
-//     $orders = executeSingleResult($sql);
-//     foreach($orders as $item){
-//     $fullname = $orders['fullname'];
-//     $phone_number = $orders['phone_number'];
-//     $email = $orders['email'];
-//     $address = $orders['address'];
-//     $note = $orders['note'];
-// }
-
-// $sql = "UPDATE order_details SET status='$status'";
 ?>
 <!DOCTYPE html>
 <html>

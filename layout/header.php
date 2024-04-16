@@ -13,7 +13,7 @@ require_once('database/dbhelper.php');
     <link rel="stylesheet" href="css/details.css">
     <link rel="stylesheet" href="plugin/fontawesome/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <title>Codedoan Coffee</title>
+    <title>Pon & izi Coffee</title>
 </head>
 
 <body>
